@@ -47,50 +47,23 @@ enum AuthResult
 
 enum LoginResult
 {
-    LOGIN_OK                                     = 0x0C, // 5.1.0
-    LOGIN_FAILED                                 = 0x0D, // 5.1.0
-    LOGIN_FAILED2                                = 0x0E, // 5.1.0
-    LOGIN_BANNED                                 = 0x1C, // 5.1.0
-    LOGIN_UNKNOWN_ACCOUNT                        = 0x15, // 5.1.0
+    LOGIN_OK                                     = 0x0C,
+    LOGIN_FAILED                                 = 0x0D,
+    LOGIN_FAILED2                                = 0x16,
+    LOGIN_BANNED                                 = 0x1C,
+    LOGIN_UNKNOWN_ACCOUNT                        = 0x15,
     LOGIN_UNKNOWN_ACCOUNT3                       = 0x05,
-    LOGIN_ALREADYONLINE                          = 0x1D, // 5.1.0
-    LOGIN_NOTIME                                 = 0x1E, // 5.1.0
-    LOGIN_DBBUSY                                 = 0x1F, // 5.1.0
-    LOGIN_BADVERSION                             = 0x09,
+    LOGIN_ALREADYONLINE                          = 0x1D,
+    LOGIN_NOTIME                                 = 0x1E,
+    LOGIN_DBBUSY                                 = 0x1F,
+    LOGIN_BADVERSION                             = 0x14,
     LOGIN_DOWNLOAD_FILE                          = 0x0A,
     LOGIN_FAILED3                                = 0x0B,
-    LOGIN_SUSPENDED                              = 0x20, // 5.1.0
+    LOGIN_SUSPENDED                              = 0x20,
     LOGIN_FAILED4                                = 0x0D,
     LOGIN_CONNECTED                              = 0x0E,
-    LOGIN_PARENTALCONTROL                        = 0x21, // 5.1.0
+    LOGIN_PARENTALCONTROL                        = 0x21,
     LOGIN_LOCKED_ENFORCED                        = 0x10,
-
-    /*
-
-	   AUTH_OK                     = 0x0C,
-        AUTH_FAILED                 = 0x0D,
-        AUTH_REJECT                 = 0x0E,
-        AUTH_BAD_SERVER_PROOF       = 0x0F,
-        AUTH_UNAVAILABLE            = 0x10,
-        AUTH_SYSTEM_ERROR           = 0x11,
-        AUTH_BILLING_ERROR          = 0x12,
-        AUTH_BILLING_EXPIRED        = 0x13,
-        AUTH_VERSION_MISMATCH       = 0x14,
-        AUTH_UNKNOWN_ACCOUNT        = 0x15,
-        AUTH_INCORRECT_PASSWORD     = 0x16,
-        AUTH_SESSION_EXPIRED        = 0x17,
-        AUTH_SERVER_SHUTTING_DOWN   = 0x18,
-        AUTH_ALREADY_LOGGING_IN     = 0x19,
-        AUTH_LOGIN_SERVER_NOT_FOUND = 0x1A,
-        AUTH_WAIT_QUEUE             = 0x1B,
-        AUTH_BANNED                 = 0x1C,
-        AUTH_ALREADY_ONLINE         = 0x1D,
-        AUTH_NO_TIME                = 0x1E,
-        AUTH_DB_BUSY                = 0x1F,
-        AUTH_SUSPENDED              = 0x20,
-        AUTH_PARENTAL_CONTROL       = 0x21,
-
-	*/
 };
 
 enum ExpansionFlags
